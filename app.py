@@ -21,4 +21,4 @@ def validate_email():
     return render_template('email_validation.html', email=email, is_valid=is_valid)
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0')
+    app.run(host='0.0.0.0', port=5000)
